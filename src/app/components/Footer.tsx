@@ -5,18 +5,18 @@ import React from 'react'
 const Footer = () => {
 
     return (
-        <footer className='bg-[#1D231F]'>
+        <footer className='bg-[#1D231F] fixed w-full bottom-0'>
             <div className='px-5 sm:px-[30px] md:px-[40px] lg:px-[80px] xl:px-[120px] pt-[180px]'>
                 <div className='block sm:gap-x-4 sm:flex md:flex md:gap-x-10 lg:flex xl:flex text-white'>
                     <div className='py-10 sm:py-0 flex flex-1 gap-x-8 items-center justify-start border-b sm:border-none'>
                         <Image className='' alt='img' src={'https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/icon-headphone.png'} width={80} height={80} />
-                        <p className=' text-red-200 text-[18px] lg:text-[26px] xl:max-w-[302px]'>Need any support for tour & travel ?</p>
+                        <p className=' text-white text-[18px] lg:text-[26px] xl:max-w-[302px]'>Need any support for tour & travel ?</p>
                         <IconCircleArrowUpRightFilled className='hidden md:block min-w-[50px] w-[70px] h-[70px] text-[#63AB45]' />
                     </div>
 
                     <div className='py-10 sm:py-0 flex flex-1 gap-x-8 items-center justify-start border-b sm:border-none'>
                         <Image alt='img' src={'https://gaviaspreview.com/wp/gowilds/wp-content/uploads/2023/01/icon-travel.png'} width={80} height={80} />
-                        <p className='text-red-200 text-[18px] lg:text-[26px] xl:max-w-[302px]'>Need any support for tour & travel ?</p>
+                        <p className='text-white text-[18px] lg:text-[26px] xl:max-w-[302px]'>Need any support for tour & travel ?</p>
                         <IconCircleArrowUpRightFilled className='hidden md:block min-w-[50px] w-[70px] h-[70px] text-[#F7921E]' />
                     </div>
                 </div>
